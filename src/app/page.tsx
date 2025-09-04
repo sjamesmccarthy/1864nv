@@ -15,7 +15,7 @@ export default function Home() {
     { src: "/vid-cheers.mp4", type: "video/mp4" },
     { src: "/vid-coktail.mp4", type: "video/mp4" },
     { src: "/vid-beer-gobblet.mp4", type: "video/mp4" },
-    // { src: "/vid-beer-pour.mp4", type: "video/mp4" },
+    { src: "/vid-wine.mp4", type: "video/mp4" },
   ];
 
   useEffect(() => {
