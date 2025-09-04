@@ -99,12 +99,14 @@ export default function Home() {
           </span>
         </div>
         <p className="w-full py-6 text-center mt-8 mb-8 text-white leading-relaxed text-xl lg:text-2xl font-special-elite">
-          1864™ is an eccentric concept that fuses a traditional small-batch
-          craft brewery, distillery and artisanal cocktail saloon with the
-          intimacy of a speakeasy and charm of old west creating a distinctive
-          experience for the people of Carson City traveling through or calling
-          our small town home. Our focus is on quality, creativity, and
-          community where everyone is welcome to share a drink and story.
+          1864™ is an eccentric gathering place that fuses a traditional
+          small-batch craft brewery, distillery, and artisanal cocktail saloon
+          with the intimacy of a speakeasy and charm of old west. Whether Carson
+          City is your home, or you are traveling through, our doors are open to
+          anyone seeking a distinctive experience built on quality, creativity,
+          and community. Step inside and share a drink&mdash;and a
+          story&mdash;in a space where everyone is welcome and every visit adds
+          to the history.
         </p>
         <p className="w-full text-center text-white leading-relaxed text-xl lg:text-2xl font-special-elite">
           OPENING 2026
