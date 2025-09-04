@@ -99,7 +99,7 @@ export default function Home() {
           </span>
         </div>
         <p className="w-full py-6 text-center mt-8 mb-8 text-white leading-relaxed text-xl lg:text-2xl font-special-elite">
-          1864 is an eccentric concept that fuses a traditional small-batch
+          1864™ is an eccentric concept that fuses a traditional small-batch
           craft brewery, distillery and artisanal cocktail saloon with the
           intimacy of a speakeasy and charm of old west creating a distinctive
           experience for the people of Carson City traveling through or calling
