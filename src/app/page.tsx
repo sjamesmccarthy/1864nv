@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import GradeIcon from "@mui/icons-material/Grade";
 import CloseIcon from "@mui/icons-material/Close";
 import { Button, IconButton } from "@mui/material";
+import Image from "next/image";
 
 export default function Home() {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
@@ -74,14 +75,16 @@ export default function Home() {
 
       <div className="px-8 lg:px-26 lg:py-0">
         <div className="flex flex-col items-center justify-center w-full">
-          <h1 className="text-[128px] text-white font-special-elite font-bold h-[142px] text-center relative inline-block">
-            1864
-            <sup className="align-super text-sm text-white ml-1 absolute top-6 right-[-.25rem]">
-              ™
-            </sup>
-          </h1>
+          <Image
+            src="/1864-logo-v1.png"
+            alt="1864 Brewery Distillery Saloon"
+            width={600}
+            height={213}
+            className="h-[213px] w-auto"
+            priority
+          />
         </div>
-        <div className="flex items-center justify-center gap-4 mt-2 md:mt-4">
+        {/* <div className="flex items-center justify-center gap-4 mt-2 md:mt-4">
           <span className="text-sm lg:text-2xl text-white font-special-elite font-bold">
             BREWERY
           </span>
@@ -97,21 +100,20 @@ export default function Home() {
           <span className="text-sm lg:text-2xl text-white font-special-elite font-bold">
             SALOON
           </span>
-        </div>
+        </div> */}
         <p className="w-full py-6 text-center mt-8 mb-8 text-white leading-relaxed text-xl lg:text-2xl font-special-elite">
           1864™ is an eccentric gathering place that fuses a traditional
-          small-batch craft brewery, distillery, and artisanal cocktail saloon
-          with the intimacy of a speakeasy and small-town charm. Whether Carson
-          City is your home or you are traveling through, our doors are open to
-          anyone seeking a distinctive experience built on quality, creativity,
-          and community. Step inside and share a drink&mdash;and a
-          story&mdash;in a space where everyone is welcome and every visit adds
-          to the history.
+          small-batch craft brewery and an artisanal cocktail saloon with the
+          intimacy of a speakeasy and small-town charm. Whether Carson City is
+          your home or you are traveling through, our doors are open to anyone
+          seeking a distinctive experience built on quality, creativity, and
+          community. Step inside and share a drink&mdash;and a story&mdash;in a
+          space where everyone is welcome and every visit adds to the history.
         </p>
-        <p className="w-full text-center text-white leading-relaxed text-xl lg:text-2xl font-special-elite">
+        {/* <p className="w-full text-center text-white leading-relaxed text-xl lg:text-2xl font-special-elite">
           OPENING 2026
-        </p>
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-16 pb-8">
+        </p> */}
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8 pb-8">
           <Button
             variant="outlined"
             size="large"
