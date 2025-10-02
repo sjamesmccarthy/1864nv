@@ -80,7 +80,7 @@ export default function Home() {
             alt="1864 Brewery Distillery Saloon"
             width={600}
             height={213}
-            className="h-[213px] w-auto"
+            className="w-[90%] h-auto lg:w-auto lg:h-[213px]"
             priority
           />
         </div>
